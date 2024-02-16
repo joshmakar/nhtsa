@@ -1,0 +1,10 @@
+const validateFormat = (format: string) => {
+  if (!format) return false;
+  if (typeof format !== 'string') return false;
+
+  const allowedFormats = ['JSON', 'JSV', 'CSV', 'XML'];
+
+  return allowedFormats.includes(format.toUpperCase());
+};
+
+export default validateFormat;
