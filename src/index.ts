@@ -29,7 +29,7 @@ class NHTSA {
     });
   }
 
-  static decodeVinFlatFormat(vin: any, format = this.DEFAULT_FORMAT, modelYear: any) {
+  static decodeVinFlatFormat(vin: any, format = this.DEFAULT_FORMAT, modelYear?: any) {
     return new Promise((resolve, reject) => {
       this.validate(vin, format, reject);
 
@@ -40,7 +40,7 @@ class NHTSA {
     });
   }
 
-  static decodeVinExtended(vin: any, format = this.DEFAULT_FORMAT, modelYear: any) {
+  static decodeVinExtended(vin: any, format = this.DEFAULT_FORMAT, modelYear?: any) {
     return new Promise((resolve, reject) => {
       this.validate(vin, format, reject);
 
@@ -51,7 +51,7 @@ class NHTSA {
     });
   }
 
-  static decodeVinExtendedFlatFormat(vin: any, format = this.DEFAULT_FORMAT, modelYear: any) {
+  static decodeVinExtendedFlatFormat(vin: any, format = this.DEFAULT_FORMAT, modelYear?: any) {
     return new Promise((resolve, reject) => {
       this.validate(vin, format, reject);
 

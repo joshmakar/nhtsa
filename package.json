@@ -10,14 +10,18 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "jest"
+    "test": "mocha --require ts-node/register test/**/*.ts"
   },
   "author": "Josh Makar",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^29.5.12",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
+    "@types/chai-as-promised": "^7.1.8",
+    "@types/mocha": "^10.0.6",
+    "@types/sinon": "^17.0.3",
+    "chai": ">= 2.1.2 < 5",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.3.0",
+    "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"

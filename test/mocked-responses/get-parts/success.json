@@ -1,0 +1,43 @@
+{
+  "status": 200,
+  "data": {
+    "Count": 3,
+    "Message": "Results returned successfully",
+    "SearchCriteria": "Type: 565 | From Date: 2/3/2018 | To Date: 3/3/2018",
+    "Results": [
+      {
+        "CoverLetterURL": "http://vpic.nhtsa.dot.gov/mfrportal/home/coverletter/6ff3ebfb-7f42-49a4-bac2-9822a017be28",
+        "LetterDate": "3/1/2018",
+        "ManufacturerId": 17999,
+        "ManufacturerName": "ATF MFG, LLC",
+        "ModelYearFrom": 2018,
+        "ModelYearTo": null,
+        "Name": "ORG15414",
+        "Type": null,
+        "URL": "http://vpic.nhtsa.dot.gov/mid/home/displayfile/9375db01-ddc0-4b56-b257-6ffa0cd33453"
+      },
+      {
+        "CoverLetterURL": "http://vpic.nhtsa.dot.gov/mfrportal/home/coverletter/8b853160-8550-4b38-ada1-82fe06469b94",
+        "LetterDate": "3/1/2018",
+        "ManufacturerId": 18034,
+        "ManufacturerName": "JUBILEE TRAILERS, LLC",
+        "ModelYearFrom": 2018,
+        "ModelYearTo": 2020,
+        "Name": "ORG15413",
+        "Type": null,
+        "URL": "http://vpic.nhtsa.dot.gov/mid/home/displayfile/280857f0-437f-4442-a6ed-f6c42474e904"
+      },
+      {
+        "CoverLetterURL": "http://vpic.nhtsa.dot.gov/mfrportal/home/coverletter/9a91f4d4-5ce4-40e7-aed3-48a54f1d0152",
+        "LetterDate": "3/1/2018",
+        "ManufacturerId": 18037,
+        "ManufacturerName": "HBT SMOKERS LLC",
+        "ModelYearFrom": 2017,
+        "ModelYearTo": null,
+        "Name": "ORG15410",
+        "Type": null,
+        "URL": "http://vpic.nhtsa.dot.gov/mid/home/displayfile/f7452348-75ec-46f4-a1cb-664575358267"
+      }
+    ]
+  }
+}
