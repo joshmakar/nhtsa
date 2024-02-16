@@ -1,5 +1,5 @@
 {
-  "name": "nhtsa-jm",
+  "name": "@joshmakar/nhtsa",
   "version": "1.0.0",
   "description": "Fetch and parse vehicle data from the NHTSA Vehicle API",
   "main": "./dist/index.js",
