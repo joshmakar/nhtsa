@@ -10,8 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshmakar/nhtsa.git"
+    "url": "git+https://github.com/joshmakar/nhtsa.git"
   },
+  "bugs": {
+    "url": "https://github.com/joshmakar/nhtsa/issues"
+  },
+  "homepage": "https://github.com/joshmakar/nhtsa#readme",
   "scripts": {
     "build": "tsup",
     "test": "mocha --require ts-node/register test/**/*.ts"
