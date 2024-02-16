@@ -8,6 +8,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshmakar/nhtsa.git"
+  },
   "scripts": {
     "build": "tsup",
     "test": "mocha --require ts-node/register test/**/*.ts"
