@@ -1,6 +1,6 @@
 {
   "name": "@joshmakar/nhtsa",
-  "version": "1.0.3",
+  "version": "0.0.0-semantic-release",
   "description": "Fetch and parse vehicle data from the NHTSA Vehicle API",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/joshmakar/nhtsa#readme",
   "scripts": {
     "build": "tsup",
-    "test": "mocha --require ts-node/register test/**/*.ts"
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "prepare": "husky"
   },
   "author": "Josh Makar",
   "license": "ISC",
@@ -28,11 +29,14 @@
     "vin lookup"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.2",
     "@types/chai-as-promised": "^7.1.8",
     "@types/mocha": "^10.0.6",
     "@types/sinon": "^17.0.3",
     "chai": ">= 2.1.2 < 5",
     "chai-as-promised": "^7.1.1",
+    "husky": "^9.0.11",
     "mocha": "^10.3.0",
     "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
